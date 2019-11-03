@@ -81,9 +81,9 @@ void main() async {
   trufiCfg.map.onlineMaxZoom = 19.0;
   trufiCfg.map.onlineZoom = 13.0;
   trufiCfg.map.chooseLocationZoom = 16.0;
-  trufiCfg.map.center = LatLng(5.574558, -0.214656);
-  trufiCfg.map.southWest = LatLng(5.510057, -0.328217);
-  trufiCfg.map.northEast = LatLng(5.726678, 0.071411);
+  trufiCfg.map.center = LatLng(9.010,38.761);
+  trufiCfg.map.southWest = LatLng(9.11, 38.96);
+  trufiCfg.map.northEast = LatLng(8.83, 38.62);
 
   // Languages
   trufiCfg.languages.addAll([
@@ -133,7 +133,7 @@ void main() async {
     TrufiApp(
       theme: ThemeData(
         primaryColor: const Color(0xff263238),
-        accentColor: const Color(0xffd81b60),
+        accentColor: const Color(0xff27ae60),
         backgroundColor: Colors.white,
         primaryColorLight: const Color(0xffeceff1),
       ),
