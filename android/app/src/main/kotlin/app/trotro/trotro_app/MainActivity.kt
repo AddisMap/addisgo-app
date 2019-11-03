@@ -1,4 +1,4 @@
-package app.trotro.trotro_app
+package app.addisgo.addisgo_app
 
 import android.os.Bundle
 

@@ -1,5 +1,5 @@
-name: trotro_app
-description: A new Flutter application.
+name: addisgo_app
+description: An app for Addis Ababa transport.
 
 # The following defines the version and build number for your application.
 # A version number is three numbers separated by dots, like 1.2.43
@@ -23,9 +23,7 @@ dependencies:
     sdk: flutter
 
   trufi_core:
-    git:
-      url: https://github.com/trufi-association/trufi-app.git
-      ref: feat/293-generalize-code
+    path: ./dep/trufi-app
 
   global_configuration: 1.2.0
   intl: 0.15.8

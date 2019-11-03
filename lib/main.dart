@@ -5,7 +5,7 @@ import 'package:latlong/latlong.dart';
 import 'package:trufi_core/trufi_configuration.dart';
 import 'package:trufi_core/trufi_app.dart';
 
-import 'package:trotro_app/localization.dart';
+import 'package:addisgo_app/localization.dart';
 
 void main() async {
   final trufiCfg = TrufiConfiguration();
