@@ -1,17 +1,17 @@
 {
-  "title": "Trotro App",
+  "title": "YeneGuzo App",
   "@title": {
     "description": "The application's name",
     "type": "text",
     "placeholders": {}
   },
-  "tagline": "Trasporto pubblico a Accra",
+  "tagline": "Trasporto pubblico a Addis Ababa",
   "@tagline": {
     "description": "A short marketing sentence that describes the app",
     "type": "text",
     "placeholders": {}
   },
-  "description": "Il miglior modo di viaggiare con trufis, micros e autobus attraverso Accra",
+  "description": "Il miglior modo di viaggiare con trufis, micros e autobus attraverso Addis Ababa",
   "@description": {
     "description": "A sentence that describes the application's purpose",
     "type": "text",
@@ -459,7 +459,7 @@
     "type": "text",
     "placeholders": {}
   },
-  "aboutContent": "Siamo un team boliviano e internazionale di persone che amano e supportano il trasporto pubblico. Abbiamo sviluppato questa app per semplificare l'uso dei trasporti pubblici a Accra e nelle aree circostanti.",
+  "aboutContent": "Siamo un team boliviano e internazionale di persone che amano e supportano il trasporto pubblico. Abbiamo sviluppato questa app per semplificare l'uso dei trasporti pubblici a Addis Ababa e nelle aree circostanti.",
   "@aboutContent": {
     "description": "Text displayed on the about page",
     "type": "text",
@@ -477,7 +477,7 @@
     "type": "text",
     "placeholders": {}
   },
-  "teamContent": "Siamo un team internazionale chiamato Trufi Association che ha creato questa app con l'aiuto di molti volontari! Vuoi migliorare l'app Trotro ed essere parte del nostro team? Vi preghiamo di contattarci tramite:",
+  "teamContent": "Siamo un team internazionale chiamato Trufi Association che ha creato questa app con l'aiuto di molti volontari! Vuoi migliorare l'app YeneGuzo ed essere parte del nostro team? Vi preghiamo di contattarci tramite:",
   "@teamContent": {
     "description": "Text displayed on the team page, followed by a email link",
     "type": "text",

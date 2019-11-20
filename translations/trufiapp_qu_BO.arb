@@ -1,11 +1,11 @@
 {
-  "title": "Trotro App",
+  "title": "YeneGuzo App",
   "@title": {
     "description": "The application's name",
     "type": "text",
     "placeholders": {}
   },
-  "tagline": "Transporte público en Accra",
+  "tagline": "Transporte público en Addis Ababa",
   "@tagline": {
     "description": "A short marketing sentence that describes the app",
     "type": "text",
@@ -441,13 +441,13 @@
     "type": "text",
     "placeholders": {}
   },
-  "menuAppReview": "Trotro Appta chaninchay",
+  "menuAppReview": "YeneGuzo Appta chaninchay",
   "@menuAppReview": {
     "description": "Menu item that triggers a native widget to rate the app",
     "type": "text",
     "placeholders": {}
   },
-  "feedbackContent": "Imayna riqch’asunki Trotro App? Mayk’aqpis pantaykunata tarirqankichu? Riqsiyta munayku! Correo electrónico chanta yupaykita ima riqsirichiwayku sumaqta yanaparisunaykupaq.",
+  "feedbackContent": "Imayna riqch’asunki YeneGuzo App? Mayk’aqpis pantaykunata tarirqankichu? Riqsiyta munayku! Correo electrónico chanta yupaykita ima riqsirichiwayku sumaqta yanaparisunaykupaq.",
   "@feedbackContent": {
     "description": "Text displayed on the feedback page",
     "type": "text",
@@ -477,7 +477,7 @@
     "type": "text",
     "placeholders": {}
   },
-  "teamContent": "Trufi Association ñisqa kay aplicación Trotro App ñisqata apachimun may chhika yanapaqkunawan. Munankichu Trotro App aswan sumaqman tukunanta? Kayman riqsirichimuwayku:",
+  "teamContent": "Trufi Association ñisqa kay aplicación YeneGuzo App ñisqata apachimun may chhika yanapaqkunawan. Munankichu YeneGuzo App aswan sumaqman tukunanta? Kayman riqsirichimuwayku:",
   "@teamContent": {
     "description": "Text displayed on the team page, followed by a email link",
     "type": "text",

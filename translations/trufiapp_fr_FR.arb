@@ -1,17 +1,17 @@
 {
-  "title": "Trotro App",
+  "title": "YeneGuzo App",
   "@title": {
     "description": "The application's name",
     "type": "text",
     "placeholders": {}
   },
-  "tagline": "Transports en commun à Accra",
+  "tagline": "Transports en commun à Addis Ababa",
   "@tagline": {
     "description": "A short marketing sentence that describes the app",
     "type": "text",
     "placeholders": {}
   },
-  "description": "La meilleure façon de se déplacer en trufis, micros et bus dans Accra.",
+  "description": "La meilleure façon de se déplacer en trufis, micros et bus dans Addis Ababa.",
   "@description": {
     "description": "A sentence that describes the application's purpose",
     "type": "text",
@@ -459,7 +459,7 @@
     "type": "text",
     "placeholders": {}
   },
-  "aboutContent": "Nous sommes une équipe bolivienne et internationale de personnes qui aiment et soutiennent les transports en commun. Nous avons développé cette application pour faciliter l'utilisation du système de transport en commun à Accra et dans les environs.",
+  "aboutContent": "Nous sommes une équipe bolivienne et internationale de personnes qui aiment et soutiennent les transports en commun. Nous avons développé cette application pour faciliter l'utilisation du système de transport en commun à Addis Ababa et dans les environs.",
   "@aboutContent": {
     "description": "Text displayed on the about page",
     "type": "text",
@@ -477,7 +477,7 @@
     "type": "text",
     "placeholders": {}
   },
-  "teamContent": "Nous sommes une équipe internationale appelée Trufi Association qui a créé cette application avec l'aide de nombreux bénévoles! Voulez-vous améliorer l'application Trotro et faire partie de notre équipe? Merci de nous contacter via:",
+  "teamContent": "Nous sommes une équipe internationale appelée Trufi Association qui a créé cette application avec l'aide de nombreux bénévoles! Voulez-vous améliorer l'application YeneGuzo et faire partie de notre équipe? Merci de nous contacter via:",
   "@teamContent": {
     "description": "Text displayed on the team page, followed by a email link",
     "type": "text",

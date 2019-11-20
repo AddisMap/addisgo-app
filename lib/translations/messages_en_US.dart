@@ -32,7 +32,7 @@ class MessageLookup extends MessageLookupByLibrary {
 
   static m5(duration, distance, location) => "Walk ${duration} (${distance}) to\n${location}";
 
-  static m6(url) => "Download Trotro App, the public transport app for Accra, at ${url}";
+  static m6(url) => "Download YeneGuzo App, the public transport app for Addis Ababa, at ${url}";
 
   static m7(representatives) => "Representatives: ${representatives}";
 
@@ -46,7 +46,7 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static _notInlinedMessages(_) => <String, Function> {
-    "aboutContent" : MessageLookupByLibrary.simpleMessage("We are a bolivian and international team of people that love and support public transport. We have developed this app to make it easy for people to use the transport system in Accra and the surrounding area."),
+    "aboutContent" : MessageLookupByLibrary.simpleMessage("We are a bolivian and international team of people that love and support public transport. We have developed this app to make it easy for people to use the transport system in Addis Ababa and the surrounding area."),
     "aboutLicenses" : MessageLookupByLibrary.simpleMessage("Licenses"),
     "aboutOpenSource" : MessageLookupByLibrary.simpleMessage("This app is released as open source on GitHub. Feel free to contribute or bring it to your own city."),
     "alertLocationServicesDeniedMessage" : MessageLookupByLibrary.simpleMessage("Please make sure your device has GPS and the Location settings are activated."),
@@ -54,7 +54,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "appReviewDialogButtonAccept" : MessageLookupByLibrary.simpleMessage("Write review"),
     "appReviewDialogButtonDecline" : MessageLookupByLibrary.simpleMessage("Not now"),
     "appReviewDialogContent" : MessageLookupByLibrary.simpleMessage("Support us with a review on the Google Play Store."),
-    "appReviewDialogTitle" : MessageLookupByLibrary.simpleMessage("Enjoying Trotro?"),
+    "appReviewDialogTitle" : MessageLookupByLibrary.simpleMessage("Enjoying YeneGuzo?"),
     "chooseLocationPageSubtitle" : MessageLookupByLibrary.simpleMessage("Pan & zoom map under pin"),
     "chooseLocationPageTitle" : MessageLookupByLibrary.simpleMessage("Choose a point"),
     "commonCancel" : MessageLookupByLibrary.simpleMessage("Cancel"),
@@ -67,7 +67,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "commonOK" : MessageLookupByLibrary.simpleMessage("OK"),
     "commonOrigin" : MessageLookupByLibrary.simpleMessage("Origin"),
     "commonUnknownError" : MessageLookupByLibrary.simpleMessage("Unknown error"),
-    "description" : MessageLookupByLibrary.simpleMessage("The best way to travel with trufis, micros and busses through Accra."),
+    "description" : MessageLookupByLibrary.simpleMessage("The best way to travel with trufis, micros and busses through Addis Ababa."),
     "donate" : MessageLookupByLibrary.simpleMessage("Donate"),
     "errorAmbiguousDestination" : MessageLookupByLibrary.simpleMessage("The trip planner is unsure of the location you want to go to. Please select from the following options, or be more specific."),
     "errorAmbiguousOrigin" : MessageLookupByLibrary.simpleMessage("The trip planner is unsure of the location you want to start from. Please select from the following options, or be more specific."),
@@ -126,13 +126,13 @@ class MessageLookup extends MessageLookupByLibrary {
     "searchTitleRecent" : MessageLookupByLibrary.simpleMessage("Recent"),
     "searchTitleResults" : MessageLookupByLibrary.simpleMessage("Search Results"),
     "shareAppText" : m6,
-    "tagline" : MessageLookupByLibrary.simpleMessage("Public transportation in Accra"),
-    "teamContent" : MessageLookupByLibrary.simpleMessage("We are an international team called Trufi Association that has created this app with the help of many volunteers! Do you want to improve the Trotro App and be part of our team? Please contact us via:"),
+    "tagline" : MessageLookupByLibrary.simpleMessage("Public transportation in Addis Ababa"),
+    "teamContent" : MessageLookupByLibrary.simpleMessage("We are an international team called Trufi Association that has created this app with the help of many volunteers! Do you want to improve the YeneGuzo App and be part of our team? Please contact us via:"),
     "teamSectionRepresentatives" : m7,
     "teamSectionRoutes" : m8,
     "teamSectionTeam" : m9,
     "teamSectionTranslations" : m10,
-    "title" : MessageLookupByLibrary.simpleMessage("Trotro App"),
+    "title" : MessageLookupByLibrary.simpleMessage("YeneGuzo App"),
     "version" : m11
   };
 }

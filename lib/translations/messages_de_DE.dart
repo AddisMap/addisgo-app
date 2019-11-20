@@ -32,7 +32,7 @@ class MessageLookup extends MessageLookupByLibrary {
 
   static m5(duration, distance, location) => "Gehen Sie ${duration} (${distance}) bis ${location}";
 
-  static m6(url) => "Hol\' dir die Trotro, die App für den öffentlichen Nahverkehr in Accra, auf ${url}";
+  static m6(url) => "Hol\' dir die YeneGuzo, die App für den öffentlichen Nahverkehr in Addis Ababa, auf ${url}";
 
   static m7(representatives) => "Vertreter: ${representatives}";
 
@@ -46,7 +46,7 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static _notInlinedMessages(_) => <String, Function> {
-    "aboutContent" : MessageLookupByLibrary.simpleMessage("Wir sind ein bolivianisches und internationales Team, das den öffentlichen Nahverkehr liebt und unterstützen möchte. Wir haben diese App entwickelt, um den Menschen die Verwendung des öffentlichen Nahverkehrs in Accra und der näheren Umgebung zu erleichtern."),
+    "aboutContent" : MessageLookupByLibrary.simpleMessage("Wir sind ein bolivianisches und internationales Team, das den öffentlichen Nahverkehr liebt und unterstützen möchte. Wir haben diese App entwickelt, um den Menschen die Verwendung des öffentlichen Nahverkehrs in Addis Ababa und der näheren Umgebung zu erleichtern."),
     "aboutLicenses" : MessageLookupByLibrary.simpleMessage("Lizenzen"),
     "aboutOpenSource" : MessageLookupByLibrary.simpleMessage("Diese App ist Open Source und auf GitHub verfügbar. Zögere nicht, einen Beitrag zu leisten oder bringe sie in Deine Stadt!"),
     "alertLocationServicesDeniedMessage" : MessageLookupByLibrary.simpleMessage("Bitte vergewissere dich, dass du ein GPS Signal empfängst und die Ortungsdienste aktiviert sind."),
@@ -54,7 +54,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "appReviewDialogButtonAccept" : MessageLookupByLibrary.simpleMessage("Bewerten"),
     "appReviewDialogButtonDecline" : MessageLookupByLibrary.simpleMessage("Jetzt nicht"),
     "appReviewDialogContent" : MessageLookupByLibrary.simpleMessage("Unterstüzte uns mit einer Bewertung im Google Play Store."),
-    "appReviewDialogTitle" : MessageLookupByLibrary.simpleMessage("Magst du Trotro?"),
+    "appReviewDialogTitle" : MessageLookupByLibrary.simpleMessage("Magst du YeneGuzo?"),
     "chooseLocationPageSubtitle" : MessageLookupByLibrary.simpleMessage("Karte unter Markierung schwenken und zoomen"),
     "chooseLocationPageTitle" : MessageLookupByLibrary.simpleMessage("Ort auswählen"),
     "commonCancel" : MessageLookupByLibrary.simpleMessage("Abbrechen"),
@@ -67,7 +67,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "commonOK" : MessageLookupByLibrary.simpleMessage("OK"),
     "commonOrigin" : MessageLookupByLibrary.simpleMessage("Startpunkt"),
     "commonUnknownError" : MessageLookupByLibrary.simpleMessage("Unbekannter Fehler"),
-    "description" : MessageLookupByLibrary.simpleMessage("Der beste Weg mit Trufis, Mikros und Bussen durch Accra zu reisen."),
+    "description" : MessageLookupByLibrary.simpleMessage("Der beste Weg mit Trufis, Mikros und Bussen durch Addis Ababa zu reisen."),
     "donate" : MessageLookupByLibrary.simpleMessage("Spenden"),
     "errorAmbiguousDestination" : MessageLookupByLibrary.simpleMessage("Der Reiseplaner weiß nicht genau, zu welchem Ort Sie fahren möchten. Bitte wählen Sie aus den folgenden Optionen eine aus oder geben Sie eine genauere Beschreibung an."),
     "errorAmbiguousOrigin" : MessageLookupByLibrary.simpleMessage("Der Reiseplaner weiß nicht genau, von welchem Ort aus Sie starten möchten. Bitte wählen Sie aus den folgenden Optionen eine aus oder geben Sie eine genauere Beschreibung an."),
@@ -126,13 +126,13 @@ class MessageLookup extends MessageLookupByLibrary {
     "searchTitleRecent" : MessageLookupByLibrary.simpleMessage("Zuletzt gesucht"),
     "searchTitleResults" : MessageLookupByLibrary.simpleMessage("Suchergebnisse"),
     "shareAppText" : m6,
-    "tagline" : MessageLookupByLibrary.simpleMessage("Öffentliche Verkehrsmittel in Accra"),
-    "teamContent" : MessageLookupByLibrary.simpleMessage("Wir sind ein internationales Team mit dem Namen Trufi Association, das diese App mit Hilfe vieler Freiwilliger erstellt hat! Möchtest du mithelfen, die Trotro App zu verbessern und Teil unseres Teams sein? Bitte kontaktiere uns über:"),
+    "tagline" : MessageLookupByLibrary.simpleMessage("Öffentliche Verkehrsmittel in Addis Ababa"),
+    "teamContent" : MessageLookupByLibrary.simpleMessage("Wir sind ein internationales Team mit dem Namen Trufi Association, das diese App mit Hilfe vieler Freiwilliger erstellt hat! Möchtest du mithelfen, die YeneGuzo App zu verbessern und Teil unseres Teams sein? Bitte kontaktiere uns über:"),
     "teamSectionRepresentatives" : m7,
     "teamSectionRoutes" : m8,
     "teamSectionTeam" : m9,
     "teamSectionTranslations" : m10,
-    "title" : MessageLookupByLibrary.simpleMessage("Trotro App"),
+    "title" : MessageLookupByLibrary.simpleMessage("YeneGuzo App"),
     "version" : m11
   };
 }

@@ -44,7 +44,7 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static _notInlinedMessages(_) => <String, Function> {
-    "aboutContent" : MessageLookupByLibrary.simpleMessage("Siamo un team boliviano e internazionale di persone che amano e supportano il trasporto pubblico. Abbiamo sviluppato questa app per semplificare l\'uso dei trasporti pubblici a Accra e nelle aree circostanti."),
+    "aboutContent" : MessageLookupByLibrary.simpleMessage("Siamo un team boliviano e internazionale di persone che amano e supportano il trasporto pubblico. Abbiamo sviluppato questa app per semplificare l\'uso dei trasporti pubblici a Addis Ababa e nelle aree circostanti."),
     "aboutLicenses" : MessageLookupByLibrary.simpleMessage("Licenze"),
     "aboutOpenSource" : MessageLookupByLibrary.simpleMessage("This app is released as open source on GitHub. Feel free to contribute or bring it to your own city."),
     "alertLocationServicesDeniedMessage" : MessageLookupByLibrary.simpleMessage("Assicurati che il tuo device abbia un GPS e geolocalizzazione attivati."),
@@ -61,7 +61,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "commonOK" : MessageLookupByLibrary.simpleMessage("OK"),
     "commonOrigin" : MessageLookupByLibrary.simpleMessage("Partenza"),
     "commonUnknownError" : MessageLookupByLibrary.simpleMessage("Errore sconosciuto"),
-    "description" : MessageLookupByLibrary.simpleMessage("Il miglior modo di viaggiare con trufis, micros e autobus attraverso Accra"),
+    "description" : MessageLookupByLibrary.simpleMessage("Il miglior modo di viaggiare con trufis, micros e autobus attraverso Addis Ababa"),
     "errorAmbiguousDestination" : MessageLookupByLibrary.simpleMessage("L\'organizzatore di viaggio è indeciso sul luogo di arrivo. Per piacere scegli tra le opzioni seguenti o sii più specifico."),
     "errorAmbiguousOrigin" : MessageLookupByLibrary.simpleMessage("L\'organizzatore di viaggio è indeciso sul luogo di partenza. Per piacere scegli tra le opzioni seguenti o sii più specifico."),
     "errorAmbiguousOriginDestination" : MessageLookupByLibrary.simpleMessage("Partenza e destinazione sono ambigue. Per piacere scegli tra le opzioni seguenti o sii più specifico."),
@@ -113,13 +113,13 @@ class MessageLookup extends MessageLookupByLibrary {
     "searchTitlePlaces" : MessageLookupByLibrary.simpleMessage("Luoghi"),
     "searchTitleRecent" : MessageLookupByLibrary.simpleMessage("Recenti"),
     "searchTitleResults" : MessageLookupByLibrary.simpleMessage("Cerca Risultati"),
-    "tagline" : MessageLookupByLibrary.simpleMessage("Trasporto pubblico a Accra"),
-    "teamContent" : MessageLookupByLibrary.simpleMessage("Siamo un team internazionale chiamato Trufi Association che ha creato questa app con l\'aiuto di molti volontari! Vuoi migliorare l\'app Trotro ed essere parte del nostro team? Vi preghiamo di contattarci tramite:"),
+    "tagline" : MessageLookupByLibrary.simpleMessage("Trasporto pubblico a Addis Ababa"),
+    "teamContent" : MessageLookupByLibrary.simpleMessage("Siamo un team internazionale chiamato Trufi Association che ha creato questa app con l\'aiuto di molti volontari! Vuoi migliorare l\'app YeneGuzo ed essere parte del nostro team? Vi preghiamo di contattarci tramite:"),
     "teamSectionRepresentatives" : m7,
     "teamSectionRoutes" : m8,
     "teamSectionTeam" : m9,
     "teamSectionTranslations" : m10,
-    "title" : MessageLookupByLibrary.simpleMessage("Trotro App"),
+    "title" : MessageLookupByLibrary.simpleMessage("YeneGuzo App"),
     "version" : m11
   };
 }
