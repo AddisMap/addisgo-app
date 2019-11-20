@@ -1,4 +1,4 @@
-package app.addisgo.addisgo_app
+package app.yeneguzo.yeneguzo_app
 
 import android.os.Bundle
 
