@@ -46,7 +46,7 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static _notInlinedMessages(_) => <String, Function> {
-    "aboutContent" : MessageLookupByLibrary.simpleMessage("We are a bolivian and international team of people that love and support public transport. We have developed this app to make it easy for people to use the transport system in Addis Ababa and the surrounding area."),
+    "aboutContent" : MessageLookupByLibrary.simpleMessage("We are a Ethiopian and international team of people that love and support public transport. We have developed this app to make it easy for people to use the transport system in Addis Ababa and the surrounding area."),
     "aboutLicenses" : MessageLookupByLibrary.simpleMessage("Licenses"),
     "aboutOpenSource" : MessageLookupByLibrary.simpleMessage("This app is released as open source on GitHub. Feel free to contribute or bring it to your own city."),
     "alertLocationServicesDeniedMessage" : MessageLookupByLibrary.simpleMessage("Please make sure your device has GPS and the Location settings are activated."),
@@ -127,7 +127,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "searchTitleResults" : MessageLookupByLibrary.simpleMessage("Search Results"),
     "shareAppText" : m6,
     "tagline" : MessageLookupByLibrary.simpleMessage("Public transportation in Addis Ababa"),
-    "teamContent" : MessageLookupByLibrary.simpleMessage("We are an international team called Trufi Association that has created this app with the help of many volunteers! Do you want to improve the YeneGuzo App and be part of our team? Please contact us via:"),
+    "teamContent" : MessageLookupByLibrary.simpleMessage("We are an international team formed under AddisMap.com that has created this app based on the work of the Trufi Association and with the help of many volunteers! Do you want to improve the YeneGuzo App and be part of our team? Please contact us via:"),
     "teamSectionRepresentatives" : m7,
     "teamSectionRoutes" : m8,
     "teamSectionTeam" : m9,

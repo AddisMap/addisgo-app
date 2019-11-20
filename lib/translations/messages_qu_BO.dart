@@ -44,7 +44,6 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static _notInlinedMessages(_) => <String, Function> {
-    "aboutContent" : MessageLookupByLibrary.simpleMessage("Bolivia suyumantapacha waq jawa suyukunawan jukchasqa kayku, munayku chanta kallpanchayku ima transporte publico ñisqata. Kay thatkichiy ruwasqa kachkan Qhuchapampa jap’iypi, ukhupi jawaman ima, aswan sasata ch’usanaykipaq."),
     "aboutLicenses" : MessageLookupByLibrary.simpleMessage("Licencias"),
     "aboutOpenSource" : MessageLookupByLibrary.simpleMessage("This app is released as open source on GitHub. Feel free to contribute or bring it to your own city."),
     "alertLocationServicesDeniedMessage" : MessageLookupByLibrary.simpleMessage("Celularniyki GPS ñisqayuqchu? Chantapis qhaway Ubicación ñisqa jap’ichisqa kananta."),
@@ -114,7 +113,6 @@ class MessageLookup extends MessageLookupByLibrary {
     "searchTitleRecent" : MessageLookupByLibrary.simpleMessage("Musuq mask\'anakuna"),
     "searchTitleResults" : MessageLookupByLibrary.simpleMessage("Mask\'anakuna riqsichiq"),
     "tagline" : MessageLookupByLibrary.simpleMessage("Transporte público en Addis Ababa"),
-    "teamContent" : MessageLookupByLibrary.simpleMessage("Trufi Association ñisqa kay aplicación YeneGuzo App ñisqata apachimun may chhika yanapaqkunawan. Munankichu YeneGuzo App aswan sumaqman tukunanta? Kayman riqsirichimuwayku:"),
     "teamSectionRepresentatives" : m7,
     "teamSectionRoutes" : m8,
     "teamSectionTeam" : m9,

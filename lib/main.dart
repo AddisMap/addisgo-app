@@ -29,12 +29,15 @@ void main() async {
     animation: "Untitled",
   );
 
+
   // Attribution
   trufiCfg.attribution.representatives.addAll([
-    "Christoph Hanser",
-    "Samuel Rioja",
+    "AddisMap.com team",
   ]);
   trufiCfg.attribution.team.addAll([
+    "AddisMap.com team",
+    "Christoph Hanser",
+    "Samuel Rioja"
     "Andreas Helms",
     "Annika Bock",
     "Christian Brückner",
@@ -53,15 +56,10 @@ void main() async {
     "Gaia Vitali Roscini",
   ]);
   trufiCfg.attribution.routes.addAll([
-    "Trufi team",
-    "Guia Cochala team",
+    "AddisMap.com team",
   ]);
   trufiCfg.attribution.osm.addAll([
-    "Marco Antonio",
-    "Noémie",
-    "Philipp",
-    "Felix D",
-    "Valor Naram", // Sören Reinecke
+    "AddisMap.com team",
   ]);
 
   // Email
@@ -96,12 +94,12 @@ void main() async {
       languageCode: "en",
       countryCode: "US",
       displayName: "English",
+      isDefault: true,
     ),
     TrufiConfigurationLanguage(
       languageCode: "es",
       countryCode: "ES",
       displayName: "Español",
-      isDefault: true,
     ),
     TrufiConfigurationLanguage(
       languageCode: "fr",
