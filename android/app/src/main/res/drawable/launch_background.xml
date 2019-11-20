@@ -3,7 +3,12 @@
     <item android:drawable="@drawable/splash_background"/>
     <item>
         <bitmap
-            android:gravity="fill|clip_vertical"
-            android:src="@drawable/splash"/>
+            android:gravity="center"
+            android:src="@drawable/splash_center"/>
+    </item>
+    <item>
+        <bitmap
+            android:gravity="bottom"
+            android:src="@drawable/splash_footer"/>
     </item>
 </layer-list>
