@@ -1,16 +1,12 @@
-# trotro_app
+# yeneguzo_app
 
-A new Flutter application.
+## HowTo Edit Logos
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+* Open ArtWork/ic_launcher.svg, export to ic_launcher.png (Page, 192x192 px)
+* go to https://appicon.co
+* Tick the android icons
+* Replace the files in android/app/src/main/res
+* Add a white background to ic_launcher.svg, export to 1024.png as 1024x1024
+* go again to https://appicon.co
+* Tick all the other icons
+* Replace the files in ios/Runner/Assets.xcassets/AppIcon.appiconset/
