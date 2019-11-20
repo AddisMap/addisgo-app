@@ -475,7 +475,7 @@
     "type": "text",
     "placeholders": {}
   },
-  "aboutContent": "Wir sind ein bolivianisches und internationales Team, das den öffentlichen Nahverkehr liebt und unterstützen möchte. Wir haben diese App entwickelt, um den Menschen die Verwendung des öffentlichen Nahverkehrs in Addis Ababa und der näheren Umgebung zu erleichtern.",
+  "aboutContent": "Wir sind ein äthiopisches und internationales Team, das den öffentlichen Nahverkehr liebt und unterstützen möchte. Wir haben diese App entwickelt, um den Menschen die Verwendung des öffentlichen Nahverkehrs in Addis Abeba und der näheren Umgebung zu erleichtern.",
   "@aboutContent": {
     "description": "Text displayed on the about page",
     "type": "text",
@@ -493,7 +493,7 @@
     "type": "text",
     "placeholders": {}
   },
-  "teamContent": "Wir sind ein internationales Team mit dem Namen Trufi Association, das diese App mit Hilfe vieler Freiwilliger erstellt hat! Möchtest du mithelfen, die YeneGuzo App zu verbessern und Teil unseres Teams sein? Bitte kontaktiere uns über:",
+  "teamContent": "Wir sind ein internationales Team unter AddisMap.com, das diese App auf der Grundlage der Arbeit der Trufi Association und mit Hilfe vieler Freiwilliger erstellt hat! Möchtest du mithelfen, die YeneGuzo App zu verbessern und Teil unseres Teams sein? Bitte kontaktiere uns über:",
   "@teamContent": {
     "description": "Text displayed on the team page, followed by a email link",
     "type": "text",

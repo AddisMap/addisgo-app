@@ -459,12 +459,6 @@
     "type": "text",
     "placeholders": {}
   },
-  "aboutContent": "Nous sommes une équipe bolivienne et internationale de personnes qui aiment et soutiennent les transports en commun. Nous avons développé cette application pour faciliter l'utilisation du système de transport en commun à Addis Ababa et dans les environs.",
-  "@aboutContent": {
-    "description": "Text displayed on the about page",
-    "type": "text",
-    "placeholders": {}
-  },
   "aboutLicenses": "Licences",
   "@aboutLicenses": {
     "description": "Button label to show licenses",
@@ -474,12 +468,6 @@
   "aboutOpenSource": "This app is released as open source on GitHub. Feel free to contribute or bring it to your own city.",
   "@aboutOpenSource": {
     "description": "A note about open source",
-    "type": "text",
-    "placeholders": {}
-  },
-  "teamContent": "Nous sommes une équipe internationale appelée Trufi Association qui a créé cette application avec l'aide de nombreux bénévoles! Voulez-vous améliorer l'application YeneGuzo et faire partie de notre équipe? Merci de nous contacter via:",
-  "@teamContent": {
-    "description": "Text displayed on the team page, followed by a email link",
     "type": "text",
     "placeholders": {}
   },

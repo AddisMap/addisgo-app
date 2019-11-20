@@ -459,12 +459,6 @@
     "type": "text",
     "placeholders": {}
   },
-  "aboutContent": "Bolivia suyumantapacha waq jawa suyukunawan jukchasqa kayku, munayku chanta kallpanchayku ima transporte publico ñisqata. Kay thatkichiy ruwasqa kachkan Qhuchapampa jap’iypi, ukhupi jawaman ima, aswan sasata ch’usanaykipaq.",
-  "@aboutContent": {
-    "description": "Text displayed on the about page",
-    "type": "text",
-    "placeholders": {}
-  },
   "aboutLicenses": "Licencias",
   "@aboutLicenses": {
     "description": "Button label to show licenses",
@@ -474,12 +468,6 @@
   "aboutOpenSource": "This app is released as open source on GitHub. Feel free to contribute or bring it to your own city.",
   "@aboutOpenSource": {
     "description": "A note about open source",
-    "type": "text",
-    "placeholders": {}
-  },
-  "teamContent": "Trufi Association ñisqa kay aplicación YeneGuzo App ñisqata apachimun may chhika yanapaqkunawan. Munankichu YeneGuzo App aswan sumaqman tukunanta? Kayman riqsirichimuwayku:",
-  "@teamContent": {
-    "description": "Text displayed on the team page, followed by a email link",
     "type": "text",
     "placeholders": {}
   },
