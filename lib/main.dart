@@ -26,40 +26,36 @@ void main() async {
   );
   trufiCfg.animation.success = FlareActor(
     "assets/images/success.flr",
-    animation: "Untitled",
+    animation: "run",
   );
 
 
   // Attribution
   trufiCfg.attribution.representatives.addAll([
-    "AddisMap.com team",
+    "Alazar Tekle",
+    "Alexander Menk",
   ]);
   trufiCfg.attribution.team.addAll([
-    "AddisMap.com team",
+    "AddisMap team",
+    "Trufi association",
     "Christoph Hanser",
-    "Samuel Rioja"
-    "Andreas Helms",
-    "Annika Bock",
-    "Christian Brückner",
-    "Javier Rocha",
-    "Luz Choque",
     "Malte Dölker",
-    "Martin Kleppe",
-    "Michael Brückner",
-    "Natalya Blanco",
-    "Neyda Mili",
     "Raimund Wege",
   ]);
   trufiCfg.attribution.translations.addAll([
+    "Alazar Tekle",
     "Gladys Aguilar",
     "Jeremy Maes",
     "Gaia Vitali Roscini",
   ]);
   trufiCfg.attribution.routes.addAll([
-    "AddisMap.com team",
+    "WRI Ethiopia",
+    "AddisMap team",
   ]);
   trufiCfg.attribution.osm.addAll([
-    "AddisMap.com team",
+    "AddisMap team",
+    "MIT Department of Urban Studies and Planning",
+    "Felix D",
   ]);
 
   // Email
