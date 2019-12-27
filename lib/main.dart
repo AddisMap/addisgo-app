@@ -118,6 +118,7 @@ void main() async {
   trufiCfg.url.otpEndpoint = globalCfg.getString("urlOtpEndpoint");
   trufiCfg.url.routeFeedback = globalCfg.getString("urlRouteFeedback");
   trufiCfg.url.donate = globalCfg.getString("urlDonate");
+  trufiCfg.url.share = 'https://yeneguzo.app/';
   trufiCfg.url.website = globalCfg.getString("urlWebsite");
   trufiCfg.url.facebook = globalCfg.getString("urlFacebook");
   trufiCfg.url.twitter = globalCfg.getString("urlTwitter");
