@@ -96,6 +96,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "instructionVehicleBus" : MessageLookupByLibrary.simpleMessage("dem Bus"),
     "instructionVehicleCar" : MessageLookupByLibrary.simpleMessage("dem Auto"),
     "instructionVehicleGondola" : MessageLookupByLibrary.simpleMessage("der Gondel"),
+    "instructionVehicleLightRail" : MessageLookupByLibrary.simpleMessage("der Stadtbahn"),
     "instructionVehicleMicro" : MessageLookupByLibrary.simpleMessage("dem Micro"),
     "instructionVehicleMinibus" : MessageLookupByLibrary.simpleMessage("dem Minibus"),
     "instructionVehicleTrufi" : MessageLookupByLibrary.simpleMessage("der Trufi"),

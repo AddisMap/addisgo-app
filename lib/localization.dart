@@ -411,6 +411,12 @@ class Localization implements TrufiLocalization {
         desc: "Vehicle name (Gondola)",
       );
 
+  String instructionVehicleLightRail() => Intl.message(
+        "Light Rail Train",
+        name: "instructionVehicleLightRail",
+        desc: "Vehicle name (Light Rail Train)",
+      );
+
   String instructionDurationMinutes(num value) => Intl.message(
         "$value min",
         name: "instructionDurationMinutes",

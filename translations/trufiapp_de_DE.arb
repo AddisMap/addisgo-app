@@ -381,6 +381,12 @@
     "type": "text",
     "placeholders": {}
   },
+  "instructionVehicleLightRail": "der Stadtbahn",
+  "@instructionVehicleGondola": {
+    "description": "Vehicle name (Light Rail Train)",
+    "type": "text",
+    "placeholders": {}
+  },
   "instructionDurationMinutes": "{value} min",
   "@instructionDurationMinutes": {
     "description": "Itinerary leg duration",
