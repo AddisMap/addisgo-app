@@ -13,13 +13,13 @@
     "type": "text",
     "placeholders": {}
   },
-  "description": "The best way to travel with trufis, micros and busses through Addis Ababa.",
+  "description": "ከአውቶብስ ፣ ሚኒባስ እና ከቀላል ባቡር ባቡር ጋር አዲስ አበባን ለመጓዝ የተሻለው መንገድ ፡፡",
   "@description": {
     "description": "A sentence that describes the application's purpose",
     "type": "text",
     "placeholders": {}
   },
-  "version": "Version {version}",
+  "version": "ስሪት {version}",
   "@version": {
     "description": "The application's version",
     "type": "text",

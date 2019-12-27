@@ -42,7 +42,7 @@ class MessageLookup extends MessageLookupByLibrary {
 
   static m10(translators) => "Translations: ${translators}";
 
-  static m11(version) => "Version ${version}";
+  static m11(version) => "ስሪት ${version}";
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static _notInlinedMessages(_) => <String, Function> {
@@ -67,7 +67,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "commonOK" : MessageLookupByLibrary.simpleMessage("OK"),
     "commonOrigin" : MessageLookupByLibrary.simpleMessage("Origin"),
     "commonUnknownError" : MessageLookupByLibrary.simpleMessage("Unknown error"),
-    "description" : MessageLookupByLibrary.simpleMessage("The best way to travel with trufis, micros and busses through Addis Ababa."),
+    "description" : MessageLookupByLibrary.simpleMessage("ከአውቶብስ ፣ ሚኒባስ እና ከቀላል ባቡር ባቡር ጋር አዲስ አበባን ለመጓዝ የተሻለው መንገድ ፡፡"),
     "donate" : MessageLookupByLibrary.simpleMessage("Donate"),
     "errorAmbiguousDestination" : MessageLookupByLibrary.simpleMessage("The trip planner is unsure of the location you want to go to. Please select from the following options, or be more specific."),
     "errorAmbiguousOrigin" : MessageLookupByLibrary.simpleMessage("The trip planner is unsure of the location you want to start from. Please select from the following options, or be more specific."),
