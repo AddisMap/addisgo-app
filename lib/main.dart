@@ -115,7 +115,12 @@ void main() async {
   ]);
 
   // Url
-  trufiCfg.url.otpEndpoint = globalCfg.getString("urlOtpEndpoint");
+  if (const bool.fromEnvironment('dart.vm.product')) {
+    trufiCfg.url.otpEndpoint = globalCfg.getString("urlOtpEndpoint");
+  } else {
+    trufiCfg.url.otpEndpoint = globalCfg.getString("urlOtpDevEndpoint");
+  }
+
   trufiCfg.url.routeFeedback = globalCfg.getString("urlRouteFeedback");
   trufiCfg.url.donate = globalCfg.getString("urlDonate");
   trufiCfg.url.share = 'https://yeneguzo.app/';

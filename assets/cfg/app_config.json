@@ -2,6 +2,7 @@
     "emailFeedback": "feedback@yeneguzo.app",
     "emailInfo": "info@yeneguzo.app",
     "urlOtpEndpoint": "https://pt.addismap.com/otp/routers/default",
+    "urlOtpDevEndpoint": "https://pt-dev.addismap.com/otp/routers/default",
     "urlOpenStreetMap": "https://www.openstreetmap.org/copyright",
     "urlMapTiler": "https://www.maptiler.com/copyright",
     "urlRouteFeedback": "",
