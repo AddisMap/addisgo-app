@@ -82,15 +82,20 @@ void main() async {
   // Languages
   trufiCfg.languages.addAll([
     TrufiConfigurationLanguage(
-      languageCode: "de",
-      countryCode: "DE",
-      displayName: "Deutsch",
-    ),
-    TrufiConfigurationLanguage(
       languageCode: "en",
       countryCode: "US",
       displayName: "English",
       isDefault: true,
+    ),
+    TrufiConfigurationLanguage(
+      languageCode: "am",
+      countryCode: "ET",
+      displayName: "አማርኛ",
+    ),
+    TrufiConfigurationLanguage(
+      languageCode: "de",
+      countryCode: "DE",
+      displayName: "Deutsch",
     ),
     TrufiConfigurationLanguage(
       languageCode: "es",
