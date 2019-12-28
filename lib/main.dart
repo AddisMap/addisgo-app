@@ -126,6 +126,8 @@ void main() async {
     trufiCfg.url.otpEndpoint = globalCfg.getString("urlOtpDevEndpoint");
   }
 
+  trufiCfg.url.adsEndpoint = "https://ads.api.addismap.com/yeneguzo.json";
+
   trufiCfg.url.routeFeedback = globalCfg.getString("urlRouteFeedback");
   trufiCfg.url.donate = globalCfg.getString("urlDonate");
   trufiCfg.url.share = 'https://yeneguzo.app/';
