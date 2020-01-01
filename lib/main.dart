@@ -8,6 +8,8 @@ import 'package:trufi_core/trufi_app.dart';
 import 'package:yeneguzo_app/localization.dart';
 
 void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+
   final trufiCfg = TrufiConfiguration();
   final globalCfg = GlobalConfiguration();
   await globalCfg.loadFromAsset("app_config");
