@@ -33,7 +33,7 @@ dev_dependencies:
 
   global_configuration: 1.4.0
 
-
+  intl_translation: 0.17.7
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
