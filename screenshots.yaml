@@ -1,0 +1,31 @@
+# A list of screen capture tests
+tests:
+# Note: flutter driver expects a pair of files eg, main1.dart and main1_test.dart
+  - test_driver/home.dart
+
+# Interim location of screenshots from tests
+staging: /tmp/screenshots
+
+archive: screenshots_archive
+
+# A list of locales supported by the app
+locales:
+  - en-US
+  - am-ET
+
+# A map of devices to emulate
+devices:
+#  ios:
+#    iPhone XS Max:
+#    iPhone 11 Pro:
+#      frame: false # no screen avail so frame must be false
+#    iPad Pro (12.9-inch) (3rd generation):
+#      orientation:
+#        - Portrait # default 
+#        - LandscapeRight
+  android:
+    Pixel_3_XL_API_28:
+#    SM G965F: # a real attached device (frame and orientation disabled)
+
+# Frame screenshots
+frame: false

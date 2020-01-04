@@ -28,6 +28,12 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 
+  test: ^1.6.3
+  screenshots: ^2.1.1
+
+  flutter_driver:
+    sdk: flutter
+
   trufi_core:
     path: ./dep/trufi-app
 
