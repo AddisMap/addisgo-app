@@ -18,8 +18,15 @@ class SearchRobot extends Robot {
     return this;
   }
 
+  enterSearchText(String s) {
+    work = work.then((_) async => await driver.enterText(s));
+    return this;
+  }
+
   HomeRobot tapsOnBackButton() {
     work = work.then((_) async => await tapsOnTooltip(Robot.backButtonTooltip));
     return HomeRobot(driver, work);
   }
+
+
 }

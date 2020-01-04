@@ -1,7 +1,7 @@
 # A list of screen capture tests
 tests:
 # Note: flutter driver expects a pair of files eg, main1.dart and main1_test.dart
-  - test_driver/home.dart
+  - test_driver/main.dart
 
 # Interim location of screenshots from tests
 staging: /tmp/screenshots
@@ -11,7 +11,7 @@ archive: screenshots_archive
 # A list of locales supported by the app
 locales:
   - en-US
-  - am-ET
+#  - am-ET
 
 # A map of devices to emulate
 devices:
