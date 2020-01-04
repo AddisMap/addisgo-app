@@ -41,5 +41,21 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>YeneGuzo is using your location to display it on a map.</string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>You should never see this, please contact us</string>
+    <key>NSContactsUsageDescription</key>
+    <string>You should never see this, please contact us</string>
+    <key>NSCalendarsUsageDescription</key>
+    <string>You should never see this, please contact us</string>
+    <key>NSAppleMusicUsageDescription</key>
+    <string>You should never see this, please contact us</string>
+    <key>NSSpeechRecognitionUsageDescription</key>
+    <string>You should never see this, please contact us</string>
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>You should never see this, please contact us</string>
+    <key>NSMotionUsageDescription</key>
+    <string>You should never see this, please contact us</string>
 </dict>
 </plist>

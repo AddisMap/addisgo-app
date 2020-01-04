@@ -7,3 +7,9 @@
 */
 
 "NSLocationWhenInUseUsageDescription" = "YeneGuzo is using your location to display it on a map.";
+"NSContactsUsageDescription" = "You should never see this, please contact us";
+"NSCalendarsUsageDescription" = "You should never see this, please contact us";
+"NSAppleMusicUsageDescription" = "You should never see this, please contact us";
+"NSMotionUsageDescription" = "You should never see this, please contact us";
+"NSSpeechRecognitionUsageDescription" = "You should never see this, please contact us";
+"NSLocationAlwaysUsageDescription" = "You should never see this, please contact us";
