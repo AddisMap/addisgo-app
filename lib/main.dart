@@ -46,6 +46,8 @@ void main() async {
   ]);
   trufiCfg.attribution.translations.addAll([
     "Alazar Tekle",
+    "Tigist",
+    "Elsa",
     "Gladys Aguilar",
     "Jeremy Maes",
     "Gaia Vitali Roscini",
@@ -114,11 +116,11 @@ void main() async {
       countryCode: "IT",
       displayName: "Italiano",
     ),
-    TrufiConfigurationLanguage(
-      languageCode: "qu",
-      countryCode: "BO",
-      displayName: "Quechua simi",
-    ),
+//    TrufiConfigurationLanguage(
+//      languageCode: "qu",
+//      countryCode: "BO",
+//      displayName: "Quechua simi",
+//    ),
   ]);
 
   // Url
