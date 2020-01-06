@@ -1,6 +1,6 @@
 {
   "@@locale": "am",
-  "@@last_modified": "2020-01-05T16:57:28.447Z",
+  "@@last_modified": "2020-01-06T19:29:31.461Z",
   "title": "የኔ ጉዞ መተግበሪያ",
   "@title": {
     "description": "The application's name",
@@ -299,7 +299,7 @@
     "type": "text",
     "placeholders": {}
   },
-  "instructionWalk": "ለ 1 ደቂቃ{duration} ({distance}) ወደ {location} ይሂዱ",
+  "instructionWalk": "ለ {duration} ({distance}) ወደ {location} ይሂዱ",
   "@instructionWalk": {
     "description": "Itinerary instruction (walking)",
     "type": "text",
@@ -315,7 +315,7 @@
       }
     }
   },
-  "instructionRide": "በ{vehicle} ለ {duration} ({distance}) ወደ {location} ይንዱ",
+  "instructionRide": "በ{vehicle} ለ {duration} ({distance}) ወደ {location} በአውቶቡስ ይጓዙ",
   "@instructionRide": {
     "description": "Itinerary instruction (vehicle)",
     "type": "text",
