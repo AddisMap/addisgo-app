@@ -27,9 +27,9 @@ class MessageLookup extends MessageLookupByLibrary {
 
   static m3(street1, street2) => "ማቋረጡ";
 
-  static m4(vehicle, duration, distance, location) => "በ${vehicle} ለ ${duration} (${distance}) ወደ ${location} ይንዱ";
+  static m4(vehicle, duration, distance, location) => "በ${vehicle} ለ ${duration} (${distance}) ወደ ${location} በአውቶቡስ ይጓዙ";
 
-  static m5(duration, distance, location) => "ለ 1 ደቂቃ${duration} (${distance}) ወደ ${location} ይሂዱ";
+  static m5(duration, distance, location) => "ለ ${duration} (${distance}) ወደ ${location} ይሂዱ";
 
   static m6(url) => "ለአዲስ አበባ የህዝብ ትራንስፖርት መተግበሪያ ያኔጎዙ መተግበሪያን በ ${url} አውርድ";
 
