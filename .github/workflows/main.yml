@@ -10,4 +10,4 @@ jobs:
         uses: maierj/fastlane-action@v1.2.0
         with:
           lane: test
-          subdirectory: ios
+          subdirectory: 'ios'
