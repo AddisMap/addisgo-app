@@ -1,0 +1,2 @@
+json_key_file("/home/self/bame/workspace/api-6950784304992572063-504946-6f80598b8120.json") # Path to the json secret file - Follow https://docs.fastlane.tools/actions/supply/#setup to get one
+package_name("app.yeneguzo.navigator") # e.g. com.krausefx.app

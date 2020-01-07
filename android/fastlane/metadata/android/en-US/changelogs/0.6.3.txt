@@ -1,0 +1,1 @@
+Fix problem with crashes on startup for example on Samsung S6
