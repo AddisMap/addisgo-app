@@ -42,7 +42,7 @@
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
 	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-	<string>YeneGuzo is using your location to display it on a map.</string>
+	<string>YeneGuzo is using your location to display it on a map and to show trips from your current location.</string>
     <key>NSLocationWhenInUseUsageDescription</key>
     <string>You should never see this, please contact us</string>
     <key>NSContactsUsageDescription</key>

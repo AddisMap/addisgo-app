@@ -6,8 +6,7 @@
   Copyright © 2019 The Chromium Authors. All rights reserved.
 */
 
-"NSLocationWhenInUseUsageDescription" = "YeneGuzo nutzt deinen Standort, um ihn auf der Karte darzustellen.";
-
+"NSLocationWhenInUseUsageDescription" = "YeneGuzo nutzt deinen Standort, um ihn auf der Karte darzustellen und um dich von deinem aktuellen Standort ans Ziel zu leiten.";
 "NSContactsUsageDescription" = "You should never see this, please contact us";
 "NSCalendarsUsageDescription" = "You should never see this, please contact us";
 "NSAppleMusicUsageDescription" = "You should never see this, please contact us";
