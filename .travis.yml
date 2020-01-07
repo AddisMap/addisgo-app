@@ -1,0 +1,6 @@
+language: objective-c
+osx_image: xcode11
+install:
+  - cd ios; bundle install
+script:
+  - fastlane beta
