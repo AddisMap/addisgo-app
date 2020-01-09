@@ -6,6 +6,7 @@ jobs:
   build:
     runs-on: macos
     steps:
+      - uses: actions/checkout@v2
       - name: Fastlane Action
         uses: maierj/fastlane-action@v1.2.0
         with:
