@@ -25,7 +25,7 @@ jobs:
           echo "keyPassword=$androidSigningKeyPassword" >> key.properties
           echo "keyAlias=$androidSigningKeyAlias" >> key.properties
       - run: flutter build apk --release
-      - run: flutter build io --release --no-codesign
+      - run: flutter build ios --release --no-codesign
       - name: Fastlane Test iOS
         uses: maierj/fastlane-action@v1.2.0
         with:
