@@ -7,8 +7,19 @@ jobs:
     runs-on: macos
     steps:
       - uses: actions/checkout@v2
-      - name: Fastlane Action
+      - uses: subosito/flutter-action@v1
+        with:
+          flutter-version: '1.13.6'
+      - run: flutter pub get
+      - run: flutter build apk --release
+      - run: flutter build io --release --no-codesign
+      - name: Fastlane Test iOS
         uses: maierj/fastlane-action@v1.2.0
         with:
           lane: test
           subdirectory: 'ios'
+      - name: Fastlane Test Android
+        uses: maierj/fastlane-action@v1.2.0
+        with:
+          lane: test
+          subdirectory: 'android'
