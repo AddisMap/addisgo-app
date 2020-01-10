@@ -11,6 +11,19 @@ jobs:
         with:
           flutter-version: '1.12.13+hotfix.5'
       - run: flutter pub get
+      - name: Setup signing
+        env:
+          androidSigningKeyBase64: ${{ secrets.androidSigningKeyBase64 }}
+          androidSigningStorePassword: ${{ secrets.androidSigningStorePassword }}
+          androidSigningKeyPassword: ${{ secrets.androidSigningKeyPassword }}
+          androidSigningKeyAlias: ${{ secrets.androidSigningKeyAlias }}
+        run: |
+          cd android
+          echo ${androidSigningKeyBase64} | base64 -d > keystore.jks
+          echo "storeFile=keystore.jks" > key.properties
+          echo "storePassword=$androidSigningStorePassword" >> key.properties
+          echo "keyPassword=$androidSigningKeyPassword" >> key.properties
+          echo "keyAlias=$androidSigningKeyAlias" >> key.properties
       - run: flutter build apk --release
       - run: flutter build io --release --no-codesign
       - name: Fastlane Test iOS
