@@ -29,7 +29,9 @@ dev_dependencies:
     sdk: flutter
 
   trufi_core:
-    path: ./dep/trufi-app
+    git:
+      url: https://github.com/addismap/trufi-app
+      ref: feat/293-generalize-code--addismap-merge
 
   global_configuration: 1.4.0
 
