@@ -27,10 +27,11 @@ jobs:
           echo "keyPassword=$androidSigningKeyPassword" >> key.properties
           echo "keyAlias=$androidSigningKeyAlias" >> key.properties
       - run: flutter build apk --release
-      - name: Fastlane beta android
+      - name: Fastlane upload to playstore (suuply)
         uses: maierj/fastlane-action@v1.2.0
         with:
-          lane: beta
+          lane: supply
+          options: '{ "apk": "../build/app/outputs/apk/release/app-release.apk" }'
           subdirectory: 'android'
       - run: flutter build ios --release --no-codesign
       - name: Fastlane beta android
