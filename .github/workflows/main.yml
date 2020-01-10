@@ -17,22 +17,24 @@ jobs:
           androidSigningStorePassword: ${{ secrets.androidSigningStorePassword }}
           androidSigningKeyPassword: ${{ secrets.androidSigningKeyPassword }}
           androidSigningKeyAlias: ${{ secrets.androidSigningKeyAlias }}
+          playStoreApiJsonBase64: ${{ secrets.playStoreApiJsonBase64 }}
         run: |
           cd android
+          echo ${playStoreApiJsonBase64} | base64 -d > playstore.json
           echo ${androidSigningKeyBase64} | base64 -d > app/keystore.jks
           echo "storeFile=keystore.jks" > key.properties
           echo "storePassword=$androidSigningStorePassword" >> key.properties
           echo "keyPassword=$androidSigningKeyPassword" >> key.properties
           echo "keyAlias=$androidSigningKeyAlias" >> key.properties
       - run: flutter build apk --release
-      - run: flutter build ios --release --no-codesign
-      - name: Fastlane Test iOS
+      - name: Fastlane beta android
         uses: maierj/fastlane-action@v1.2.0
         with:
-          lane: test
-          subdirectory: 'ios'
-      - name: Fastlane Test Android
-        uses: maierj/fastlane-action@v1.2.0
-        with:
-          lane: test
+          lane: beta
           subdirectory: 'android'
+      - run: flutter build ios --release --no-codesign
+      - name: Fastlane beta android
+        uses: maierj/fastlane-action@v1.2.0
+        with:
+          lane: beta
+          subdirectory: 'ios'
