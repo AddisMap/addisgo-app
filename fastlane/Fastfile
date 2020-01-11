@@ -62,7 +62,8 @@ platform :ios do
         provisioningProfiles: {
           "app.yeneguzo.navigator" => "match AppStore app.yeneguzo.navigator"
         }
-      }
+      },
+      export_xcargs: "-allowProvisioningUpdates"
     )
 
     pilot
