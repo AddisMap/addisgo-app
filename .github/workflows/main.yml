@@ -19,8 +19,8 @@ jobs:
           androidSigningKeyAlias: ${{ secrets.androidSigningKeyAlias }}
           playStoreApiJsonBase64: ${{ secrets.playStoreApiJsonBase64 }}
         run: |
-          cd android
           echo ${playStoreApiJsonBase64} | base64 -d > googleplay.json
+          cd android
           echo ${androidSigningKeyBase64} | base64 -d > app/keystore.jks
           echo "storeFile=keystore.jks" > key.properties
           echo "storePassword=$androidSigningStorePassword" >> key.properties
