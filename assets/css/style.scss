@@ -1,0 +1,14 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+header {
+	background: #2e7bcf url(https://github.com/AddisMap/yeneguzo-app/blob/master/assets/images/drawer-bg.jpg?raw=true);
+	border-bottom: solid 1px #275da1;
+	background-size: cover;
+	background-position-y: center;
+	h2 {
+		color: white;
+	}
+}
