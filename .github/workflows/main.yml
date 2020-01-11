@@ -26,12 +26,12 @@ jobs:
           echo "storePassword=$androidSigningStorePassword" >> key.properties
           echo "keyPassword=$androidSigningKeyPassword" >> key.properties
           echo "keyAlias=$androidSigningKeyAlias" >> key.properties
-      - run: flutter build apk --release
-      - name: Fastlane upload to PlayStore
-        uses: maierj/fastlane-action@v1.2.0
-        with:
-          lane: 'android supply'
-          options: '{ "apk": "../build/app/outputs/apk/release/app-release.apk" }'
+#      - run: flutter build apk --release
+#      - name: Fastlane upload to PlayStore
+#        uses: maierj/fastlane-action@v1.2.0
+#        with:
+#          lane: 'android supply'
+#          options: '{ "apk": "../build/app/outputs/apk/release/app-release.apk" }'
       - run: flutter build ios --release --no-codesign
       - name: Fastlane upload TestFlight (iOS)
         uses: maierj/fastlane-action@v1.2.0
