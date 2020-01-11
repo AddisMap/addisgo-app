@@ -1,0 +1,6 @@
+git_url "https://github.com/amenk/addismap-certificates.git"
+
+type "appstore" #The default type, can be: appstore, adhoc, enterprise or development
+
+username "menk@mestrona.net"
+app_identifier ["app.yeneguzo.navigator"]
