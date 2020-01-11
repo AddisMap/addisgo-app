@@ -37,7 +37,7 @@ platform :android do
   end
 
   desc "Upload a new version to the Google Play"
-  lane :supply do
+  lane :beta do
     changelog_from_git_commits(
       merge_commit_filtering: "exclude_merges"
     )
@@ -66,8 +66,9 @@ platform :ios do
   desc "Submit a new Beta Build to Apple TestFlight"
   desc "This will also make sure the profile is up to date"
   lane :beta do
-    sync_code_signing(type: "appstore")
+    get_certificates
 
+    get_provisioning_profile
     build_app(
       scheme: "Runner",
       workspace: "ios/Runner.xcworkspace",
