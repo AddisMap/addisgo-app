@@ -42,9 +42,7 @@ platform :ios do
   desc "Submit a new Beta Build to Apple TestFlight"
   desc "This will also make sure the profile is up to date"
   lane :beta do
-    get_certificates
-
-    get_provisioning_profile
+    match(app_identifier: ["app.yeneguzo.navigator"])
     build_app(
       scheme: "Runner",
       workspace: "ios/Runner.xcworkspace",
