@@ -33,9 +33,16 @@ jobs:
 #          lane: 'android beta'
 #          options: '{ "apk": "../build/app/outputs/apk/release/app-release.apk" }'
       - run: flutter build ios --release --no-codesign
+      - name: Set up keychain
+          run: |
+            security create-keychain -p dummy build.keychain
+            security default-keychain -s build.keychain
+            security unlock-keychain -p dummy build.keychain
+            security set-key-partition-list -S apple-tool:,apple: -s -k actions build.keychain
       - name: Fastlane upload TestFlight (iOS)
         env:
           FASTLANE_APPLE_APPLICATION_SPECIFIC_PASSWORD: ${{ secrets.FASTLANE_APPLE_APPLICATION_SPECIFIC_PASSWORD }}
+          # MATCH_GIT_BASIC_AUTHORIZATION is "githubuser:githubtoken" in base64 encoded string
           MATCH_GIT_BASIC_AUTHORIZATION: ${{ secrets.MATCH_GIT_BASIC_AUTHORIZATION }}
           MATCH_PASSWORD: ${{ secrets.MATCH_PASSWORD }}
         uses: maierj/fastlane-action@v1.2.0
