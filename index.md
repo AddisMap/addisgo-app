@@ -2,7 +2,7 @@
 
 YeneGuzo is an app for public transport in Ethiopia. YeneGuzo means "MyTrip".
 
-<img src="https://raw.githubusercontent.com/AddisMap/yeneguzo.app/master/playstore_icon.png" width="250" height="250">
+<img src="https://raw.githubusercontent.com/AddisMap/yeneguzo-app/gh-pages/playstore_icon.png" width="250" height="250">
 
 Public transport is an important way to move in an affordable and sustainable way.
 The YeneGuzo App helps you to find a way from A to B, using public means of transportation, such as Anbessa bus, Sheger bus network, Minibusses (Taxi) and also Lightrail (planned).
