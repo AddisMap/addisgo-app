@@ -16,7 +16,11 @@
 default_platform(:android)
 
 platform :android do
-  desc "Runs all the tests"
+  before_all do
+    setup_ci(
+      provider: "travis"
+    )
+  end
 
   desc "Upload a new version to the Google Play"
   lane :beta do
@@ -37,6 +41,9 @@ end
 platform :ios do
   before_all do
     cocoapods(podfile: './ios/Podfile')
+    setup_ci(
+      provider: "travis"
+    )
   end
 
   desc "Submit a new Beta Build to Apple TestFlight"
