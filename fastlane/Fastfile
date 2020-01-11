@@ -56,7 +56,13 @@ platform :ios do
     build_app(
       scheme: "Runner",
       workspace: "ios/Runner.xcworkspace",
-      include_bitcode: true
+      include_bitcode: true,
+      export_method: "app-store",
+      export_options: {
+        provisioningProfiles: {
+          "app.yeneguzo.navigator" => "match AppStore app.yeneguzo.navigator"
+        }
+      }
     )
 
     pilot
