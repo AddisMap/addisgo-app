@@ -36,6 +36,8 @@ jobs:
       - name: Fastlane upload TestFlight (iOS)
         env:
           FASTLANE_APPLE_APPLICATION_SPECIFIC_PASSWORD: ${{ secrets.FASTLANE_APPLE_APPLICATION_SPECIFIC_PASSWORD }}
+          MATCH_GIT_BASIC_AUTHORIZATION: ${{ secrets.MATCH_GIT_BASIC_AUTHORIZATION }}
+          MATCH_PASSWORD: ${{ secrets.MATCH_PASSWORD }}
         uses: maierj/fastlane-action@v1.2.0
         with:
           lane: 'ios beta'
