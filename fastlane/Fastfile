@@ -51,9 +51,7 @@ platform :ios do
   lane :beta do
     match(
       app_identifier: ["app.yeneguzo.navigator"],
-      readonly: true,
-      keychain_name: "build.keychain"
-      keychain_password: "dummy"
+      readonly: true
     )
     build_app(
       scheme: "Runner",
