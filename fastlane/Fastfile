@@ -66,7 +66,7 @@ platform :ios do
   desc "Submit a new Beta Build to Apple TestFlight"
   desc "This will also make sure the profile is up to date"
   lane :beta do
-    # match(type: "appstore") # more information: https://codesigning.guide
+    sync_code_signing(type: "appstore")
 
     build_app(
       scheme: "Runner",
@@ -75,9 +75,6 @@ platform :ios do
     )
 
     pilot
-
-    # sh "your_script.sh"
-    # You can also use other beta testing services here (run `fastlane actions`)
   end
 
   desc "Deploy a new version to the App Store"
