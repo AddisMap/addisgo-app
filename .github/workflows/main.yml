@@ -30,12 +30,10 @@ jobs:
       - name: Fastlane upload to PlayStore
         uses: maierj/fastlane-action@v1.2.0
         with:
-          lane: upload_to_play_store
+          lane: 'android supply'
           options: '{ "apk": "../build/app/outputs/apk/release/app-release.apk" }'
-          subdirectory: 'android'
       - run: flutter build ios --release --no-codesign
       - name: Fastlane upload TestFlight (iOS)
         uses: maierj/fastlane-action@v1.2.0
         with:
-          lane: beta
-          subdirectory: 'ios'
+          lane: 'ios beta'
