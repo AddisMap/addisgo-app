@@ -43,7 +43,10 @@ platform :android do
     )
     version_code = sh("grep ^version ../pubspec.yaml | cut -d'+' -f2  | tr -d '\n'").to_i
     upload_to_play_store(
-       version_code: version_code
+       version_code: version_code,
+       skip_upload_aab: true,
+       apk: "build/app/outputs/apk/release/app-release.apk",
+       track: "beta"
     )
   end
 end
