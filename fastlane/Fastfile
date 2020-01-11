@@ -41,7 +41,7 @@ platform :android do
     changelog_from_git_commits(
       merge_commit_filtering: "exclude_merges"
     )
-    version_code = sh("grep ^version pubspec.yaml | cut -d'+' -f2")
+    version_code = sh("grep ^version pubspec.yaml | cut -d'+' -f2  | tr -d '\n'").to_i
     upload_to_play_store(
        version_code: version_code
     )
