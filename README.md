@@ -1,12 +1,34 @@
-# yeneguzo_app
+# YeneGuzo App Source Code
 
-## HowTo Edit Logos
+YeneGuzo is a public transport trip planner app for Addis Ababa, Ethiopia
 
-* Open ArtWork/ic_launcher.svg, export to ic_launcher.png (Page, 192x192 px)
-* go to https://appicon.co
-* Tick the android icons
-* Replace the files in android/app/src/main/res
-* Add a white background to ic_launcher.svg, export to 1024.png as 1024x1024
-* go again to https://appicon.co
-* Tick all the other icons
-* Replace the files in ios/Runner/Assets.xcassets/AppIcon.appiconset/
+It is based on the [Trufi core](https://github.com/trufi-association/trufi-app) and maintained
+by [Bandira Addis Map Entertainment PLC](http://bandira.map.et)
+
+The app displays trip planning information from the OpenTripPlanner backend.
+
+## How to get the app
+
+See https://yeneguzo.app for the app store links
+
+## Available languages
+
+* Amharic (64% translated)
+* Afar (still looking for translators)
+* Oromo (still looking for translators)
+* Any other language?
+
+## Contribute
+
+You can contribute
+
+* by editing route data on OpenStreetMap
+* by fixing bugs
+* by translating
+* by giving feedback on the app stores
+ 
+Contact us at feedback@yeneguzo.app, open an issue or send pull requests.
+
+## Development
+
+See DEVELOPMENT.md and the build instructions on https://github.com/trufi-association/trufi-app
