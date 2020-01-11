@@ -42,7 +42,10 @@ platform :ios do
   desc "Submit a new Beta Build to Apple TestFlight"
   desc "This will also make sure the profile is up to date"
   lane :beta do
-    match(app_identifier: ["app.yeneguzo.navigator"])
+    match(
+      app_identifier: ["app.yeneguzo.navigator"],
+      readonly: true
+    )
     build_app(
       scheme: "Runner",
       workspace: "ios/Runner.xcworkspace",
