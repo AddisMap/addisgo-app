@@ -60,7 +60,7 @@ platform :ios do
 
     update_project_provisioning(
       xcodeproj: "ios/Runner.xcodeproj",
-      profile:ENV["sigh_app.yeneguzo.navigator_appstore_profile"],
+      profile:ENV["sigh_app.yeneguzo.navigator_appstore_profile-path"],
       build_configuration: "Release"
     )
 
