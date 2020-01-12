@@ -58,6 +58,12 @@ platform :ios do
       path: "ios/Runner.xcodeproj"
     )
 
+    update_project_provisioning(
+      xcodeproj: "ios/Runner.xcodeproj",
+      profile:ENV["sigh_app.yeneguzo.navigator_appstore_profile"],
+      build_configuration: "Release"
+    )
+
     build_app(
       scheme: "Runner",
       workspace: "ios/Runner.xcworkspace",
