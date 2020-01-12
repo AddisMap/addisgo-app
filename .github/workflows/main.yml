@@ -37,6 +37,7 @@ jobs:
 #      - run: flutter build ios --release --no-codesign
       - name: Fastlane upload TestFlight (iOS)
         env:
+          FASTLANE_USER: "menk@mestrona.net"
           FASTLANE_APPLE_APPLICATION_SPECIFIC_PASSWORD: ${{ secrets.FASTLANE_APPLE_APPLICATION_SPECIFIC_PASSWORD }}
           # MATCH_GIT_BASIC_AUTHORIZATION is "githubuser:githubtoken" in base64 encoded string
           MATCH_GIT_BASIC_AUTHORIZATION: ${{ secrets.MATCH_GIT_BASIC_AUTHORIZATION }}
