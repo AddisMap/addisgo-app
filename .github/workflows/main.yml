@@ -1,6 +1,9 @@
 name: CI
 
-on: [push]
+on:
+  push:
+    tags:
+      - '*'
 
 jobs:
   build:
@@ -28,13 +31,12 @@ jobs:
           echo "storePassword=$androidSigningStorePassword" >> key.properties
           echo "keyPassword=$androidSigningKeyPassword" >> key.properties
           echo "keyAlias=$androidSigningKeyAlias" >> key.properties
-#      - run: flutter build apk --release
-#      - name: Fastlane upload to PlayStore
-#        uses: maierj/fastlane-action@v1.2.0
-#        with:
-#          lane: 'android beta'
-#          options: '{ "apk": "../build/app/outputs/apk/release/app-release.apk" }'
-#      - run: flutter build ios --release --no-codesign
+      - run: flutter build apk --release
+      - name: Fastlane upload to PlayStore
+        uses: maierj/fastlane-action@v1.2.0
+        with:
+          lane: 'android beta'
+          options: '{ "apk": "../build/app/outputs/apk/release/app-release.apk" }'
       - name: Fastlane upload TestFlight (iOS)
         env:
           FASTLANE_USER: "menk@mestrona.net"
