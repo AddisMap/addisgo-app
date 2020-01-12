@@ -40,6 +40,7 @@ end
 
 platform :ios do
   before_all do
+    xcversion(version: "11.3")
     cocoapods(podfile: './ios/Podfile')
     setup_ci(
       provider: "travis"
