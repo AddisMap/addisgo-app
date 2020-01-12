@@ -78,7 +78,10 @@ platform :ios do
       export_xcargs: "-allowProvisioningUpdates"
     )
 
-    pilot
+    pilot(
+      apple_id: "menk@mestrona.net",
+      skip_waiting_for_build_processing: true
+    )
   end
 end
 
