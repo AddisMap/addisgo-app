@@ -4,5 +4,4 @@ package_name("app.yeneguzo.navigator") # e.g. com.krausefx.app
 
 # iOS
 app_identifier "app.yeneguzo.navigator" # The bundle identifier of your app
-apple_id "menk@mestrona.net" # Your Apple email address
 team_id "3HM2LUD65B" # Developer Portal Team ID
