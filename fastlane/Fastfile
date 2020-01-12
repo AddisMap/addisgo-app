@@ -79,7 +79,7 @@ platform :ios do
     )
 
     pilot(
-      apple_id: "menk@mestrona.net",
+      apple_id: "1493441355",
       skip_waiting_for_build_processing: true
     )
   end
