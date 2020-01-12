@@ -67,6 +67,7 @@ platform :ios do
     build_app(
       scheme: "Runner",
       workspace: "ios/Runner.xcworkspace",
+      configuration: "Release",
       include_bitcode: true,
       export_method: "app-store",
       export_options: {
