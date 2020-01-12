@@ -5,6 +5,8 @@ on: [push]
 jobs:
   build:
     runs-on: macos
+    env:
+      DEVELOPER_DIR: /Applications/Xcode_11.3.app/Contents/Developer
     steps:
       - uses: actions/checkout@v2
       - uses: subosito/flutter-action@v1
@@ -32,10 +34,11 @@ jobs:
 #        with:
 #          lane: 'android beta'
 #          options: '{ "apk": "../build/app/outputs/apk/release/app-release.apk" }'
-      - run: flutter build ios --release --no-codesign
+#      - run: flutter build ios --release --no-codesign
       - name: Fastlane upload TestFlight (iOS)
         env:
           FASTLANE_APPLE_APPLICATION_SPECIFIC_PASSWORD: ${{ secrets.FASTLANE_APPLE_APPLICATION_SPECIFIC_PASSWORD }}
+          # MATCH_GIT_BASIC_AUTHORIZATION is "githubuser:githubtoken" in base64 encoded string
           MATCH_GIT_BASIC_AUTHORIZATION: ${{ secrets.MATCH_GIT_BASIC_AUTHORIZATION }}
           MATCH_PASSWORD: ${{ secrets.MATCH_PASSWORD }}
         uses: maierj/fastlane-action@v1.2.0
