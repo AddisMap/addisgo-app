@@ -54,7 +54,9 @@ platform :ios do
       readonly: true
     )
 
-    disable_automatic_code_signing
+    disable_automatic_code_signing(
+      path: "ios/Runner.xcodeproj"
+    )
 
     build_app(
       scheme: "Runner",
