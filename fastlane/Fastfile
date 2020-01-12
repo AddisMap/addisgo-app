@@ -53,6 +53,9 @@ platform :ios do
       app_identifier: ["app.yeneguzo.navigator"],
       readonly: true
     )
+
+    disable_automatic_code_signing
+
     build_app(
       scheme: "Runner",
       workspace: "ios/Runner.xcworkspace",
