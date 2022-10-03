@@ -1,3 +1,14 @@
+This was replaced by
+
+https://github.com/AddisMap/addismaptransit - the first public transport map and planning app of Ethiopia
+
+to avoid naming confusion.
+
+If you are looking for the ticket booking app, head to https://yeneguzo.com/
+
+Old readme:
+<hr>
+
 # YeneGuzo App Source Code
 
 YeneGuzo is a public transport trip planner app for Addis Ababa, Ethiopia
